@@ -1,0 +1,56 @@
+/* style.css */
+
+body {
+    background-color: #222; /* fundal închis */
+    color: #ccc; /* text deschis */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Stil pentru titluri */
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Stil pentru subtitluri */
+h2 {
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+/* Stil pentru linkuri */
+a {
+    color: #00f; /* albastru */
+    text-decoration: underline;
+}
+
+/* Stil pentru textul îngroșat */
+.highlight {
+    font-weight: bold;
+}
+
+/* Stil pentru butoane */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px; /* colțuri rotunjite */
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffd700; /* galben mai deschis la hover */
+}
+
+/* Stil pentru culorile speciale în text */
+.green { color: green; }
+.red { color: red; }
+.blue { color: blue; }
